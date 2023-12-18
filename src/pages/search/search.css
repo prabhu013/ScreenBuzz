@@ -1,0 +1,20 @@
+.search__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.search__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.search__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.load_title {
+    padding: 0 3rem 3rem 3rem;
+    font-size: 1.75rem;
+margin:  2.5rem;
+}

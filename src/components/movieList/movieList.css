@@ -1,0 +1,50 @@
+.movie__list {
+    padding: 2rem 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+
+}
+
+.list__cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.page-button {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .page-button button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: rgb(255, 215, 17);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page-button button:hover {
+    background-color: #f1f1f1;
+  }
+  .page-button button:disabled {
+    background-color: #f1f1f1;
+    cursor: not-allowed;
+  }
+  
+  .page-number {
+    display: inline-block;
+    margin: 0 10px;
+  }
